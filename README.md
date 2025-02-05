@@ -79,28 +79,8 @@ Model: llama-3.3-70b-versatile
 
 Below is the flow diagram representing the interactions between components:
 
-          +--------------------+
-          |  User Interaction  |
-          +--------------------+
-                    |
-                    v
-          +--------------------+
-          |    FastAPI App     |
-          +--------------------+
-                    |
-          +--------------------+
-          |   Playground UI    |
-          +--------------------+
-                /     \
-               v       v
-+----------------+  +----------------+
-| Web Search Agent |  | Financial Agent |
-+----------------+  +----------------+
-        |                      |
-        v                      v
-+----------------+    +----------------+
-| DuckDuckGo API |    | YFinance Tools |
-+----------------+    +----------------+
+  <img width="571" alt="image" src="https://github.com/user-attachments/assets/0d73ecdf-d4cd-486e-bef8-13d62b600f8c" />
+
 
 # Contributing
 
